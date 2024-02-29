@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookRepositoryTest" project="Rest-Api-Unit-Test" tests="2" started="2" failures="1" errors="0" ignored="0">
+  <testsuite name="com.unit.test.rest.service.BookRepositoryTest" time="1.294" displayname="BookRepositoryTest" uniqueid="[engine:junit-jupiter]/[class:com.unit.test.rest.service.BookRepositoryTest]">
+    <testcase name="findBooksByTitleNonIsolatedManner" classname="com.unit.test.rest.service.BookRepositoryTest" time="1.218" displayname="findBooksByTitleNonIsolatedManner()" uniqueid="[engine:junit-jupiter]/[class:com.unit.test.rest.service.BookRepositoryTest]/[method:findBooksByTitleNonIsolatedManner()]"/>
+    <testcase name="findBooksByTitelContainingNoResults" classname="com.unit.test.rest.service.BookRepositoryTest" time="0.074" displayname="findBooksByTitelContainingNoResults()" uniqueid="[engine:junit-jupiter]/[class:com.unit.test.rest.service.BookRepositoryTest]/[method:findBooksByTitelContainingNoResults()]">
+      <failure>
+        <expected>1</expected>
+        <actual>0</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;1&gt; but was: &lt;0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)&#13;
+	at com.unit.test.rest.service.BookRepositoryTest.findBooksByTitelContainingNoResults(BookRepositoryTest.java:46)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookRepositoryTest" project="Rest-Api-Unit-Test" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.unit.test.rest.service.BookRepositoryTest" time="1.237" displayname="BookRepositoryTest" uniqueid="[engine:junit-jupiter]/[class:com.unit.test.rest.service.BookRepositoryTest]">
+    <testcase name="findBooksByTitleNonIsolatedManner" classname="com.unit.test.rest.service.BookRepositoryTest" time="1.185" displayname="findBooksByTitleNonIsolatedManner()" uniqueid="[engine:junit-jupiter]/[class:com.unit.test.rest.service.BookRepositoryTest]/[method:findBooksByTitleNonIsolatedManner()]"/>
+    <testcase name="findBooksByTitelContainingNoResults" classname="com.unit.test.rest.service.BookRepositoryTest" time="0.05" displayname="findBooksByTitelContainingNoResults()" uniqueid="[engine:junit-jupiter]/[class:com.unit.test.rest.service.BookRepositoryTest]/[method:findBooksByTitelContainingNoResults()]"/>
+  </testsuite>
+</testrun>
